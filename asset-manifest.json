@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cra-pwa/static/css/main.073c9b0a.css",
-    "main.js": "/cra-pwa/static/js/main.3fef395c.js",
+    "main.css": "/cra-pwa/static/css/main.bc4cb146.css",
+    "main.js": "/cra-pwa/static/js/main.756136b1.js",
     "static/js/787.28cb0dcd.chunk.js": "/cra-pwa/static/js/787.28cb0dcd.chunk.js",
     "service-worker.js": "/cra-pwa/service-worker.js",
     "index.html": "/cra-pwa/index.html",
-    "main.073c9b0a.css.map": "/cra-pwa/static/css/main.073c9b0a.css.map",
-    "main.3fef395c.js.map": "/cra-pwa/static/js/main.3fef395c.js.map",
+    "main.bc4cb146.css.map": "/cra-pwa/static/css/main.bc4cb146.css.map",
+    "main.756136b1.js.map": "/cra-pwa/static/js/main.756136b1.js.map",
     "787.28cb0dcd.chunk.js.map": "/cra-pwa/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3fef395c.js"
+    "static/css/main.bc4cb146.css",
+    "static/js/main.756136b1.js"
   ]
 }
