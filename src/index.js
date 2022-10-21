@@ -1,31 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  HashRouter,
+  Routes,
+  Route,
 } from "react-router-dom";
 import './index.css';
-import App from './App';
+import AppBar from './components/AppBar';
+import SpeedDialTooltipOpen from './components/SpeedDial';
+import Camera from './components/Camera';
+import Home from './components/Home';
+import ProductPage from './components/Product/Product';
+import Bluetooth from './components/Bluetooth';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/products",
-    element: <App />,
-  },
-]);
-
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <>
+      <HashRouter>
+        <AppBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/camera" element={<Camera />} />
+          <Route exact path="/product" element={<ProductPage />} />
+          <Route exact path="/bluetooth" element={<Bluetooth />} />
+        </Routes>
+        <SpeedDialTooltipOpen />
+      </HashRouter>
+    </>
+
   </React.StrictMode>
 );
 

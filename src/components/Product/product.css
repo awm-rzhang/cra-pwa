@@ -1,0 +1,11 @@
+.product-description {
+    min-height: 30vh;
+    overflow: auto;
+}
+.line {
+    display: block;
+}
+
+.image-list-container {
+    flex: 1 1 auto;
+}
